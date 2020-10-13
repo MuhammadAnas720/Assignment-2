@@ -1,0 +1,47 @@
+
+.spacerBox {
+	width: 80%;
+	height: 600px;
+	background-color: beige;
+	margin: 0 auto;
+	z-index: 130;
+}
+
+.a{
+	height: 1000px;
+	display: block;
+}
+
+.b {
+	position: relative;
+}
+
+.boxHolder {
+	/* position: relative; */
+	background-image: url("bg.jpg");
+  /* left: 200px; */
+	width: 90%;
+	margin: 0 auto;
+	background-size: cover;
+	height: 600px;
+	background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+	/* background-position: center top, center bottom, center;
+	background-repeat: no-repeat, no-repeat, repeat-y; */
+	position: relative;
+	z-index: 120;
+	/* background-color: orchid; */
+}
+
+.theBox {
+	position: absolute;
+	left: 0px;
+	top: 500px;
+	width: 200px;
+	height: 200px;
+	z-index: 121;
+	/*background-color: orchid;*/
+}

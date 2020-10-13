@@ -1,0 +1,24 @@
+
+.spacerBox {
+	width: 80%;
+	height: 600px;
+	background-color: beige;
+	margin: 0 auto;
+}
+
+.boxHolder {
+	position: relative;
+	width: 80%;
+	margin: 0 auto;
+	height: 200px;
+	background-color: orchid;
+}
+
+.theBox {
+	position: fixed;
+	left: 0px;
+	top: 500px;
+	width: 200px;
+	height: 200px;
+	/*background-color: orchid;*/
+}
